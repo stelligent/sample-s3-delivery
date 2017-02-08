@@ -132,11 +132,11 @@ Resources:
           Version: '2012-10-17'
   SiteBucket:
     Type: AWS::S3::Bucket
-      Properties:
-        AccessControl: PublicRead
-        BucketName: !Ref SiteBucketName
-        WebsiteConfiguration:
-          IndexDocument: index.html
+    Properties:
+      AccessControl: PublicRead
+      BucketName: !Ref SiteBucketName
+      WebsiteConfiguration:
+        IndexDocument: index.html
   PipelineBucket:
     Type: AWS::S3::Bucket
   CodeBuildDeploySite:
