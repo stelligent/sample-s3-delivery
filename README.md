@@ -3,3 +3,5 @@ This repo is a demonstration of Continuous Delivery of a single page application
 
 [![Launch CFN stack](https://s3.amazonaws.com/stelligent-public/media/images/buttons/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#cstack=sn~sample-s3-delivery|turl~https://s3.amazonaws.com/stelligent-public/cloudformation-templates/github/labs/spa/pipeline.yml)
 
+The CloudFormation template is available [here](https://s3.amazonaws.com/stelligent-public/cloudformation-templates/github/labs/spa/pipeline.yml).
+
